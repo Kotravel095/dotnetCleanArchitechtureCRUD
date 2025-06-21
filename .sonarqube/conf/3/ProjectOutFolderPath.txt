@@ -1,0 +1,1 @@
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/.sonarqube/out/3

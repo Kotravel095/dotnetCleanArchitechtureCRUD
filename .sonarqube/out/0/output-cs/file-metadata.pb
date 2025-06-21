@@ -1,0 +1,9 @@
+i
+`/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/Common/BaseEntity.csutf-8f
+]/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/Entities/Blogs.csutf-8i
+`/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/Entities/Products.csutf-8s
+j/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/Interfaces/IBlogsRepository.csutf-8v
+m/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/Interfaces/IProductsRepository.csutf-8É
+x/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/obj/Debug/net8.0/_1.Domain.GlobalUsings.g.csutf-8ó
+ã/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8Å
+v/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/obj/Debug/net8.0/_1.Domain.AssemblyInfo.csutf-8

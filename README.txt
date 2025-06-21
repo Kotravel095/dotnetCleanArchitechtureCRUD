@@ -6,3 +6,10 @@ export ASPNETCORE_ENVIRONMENT=Development
 
 ##APPLY MIGRATION
     dotnet ef database update --project _3.Infrastructure --startup-project _4.WebApi
+
+##SCRIPT TESTS
+    dotnet test
+    dotnet test --logger "console;verbosity=detailed"
+
+##DOTNET TESTS CONVERAGE FILE
+    dotnet test --collect:"XPlat Code Coverage"

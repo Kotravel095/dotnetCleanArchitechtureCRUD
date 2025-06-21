@@ -1,0 +1,10 @@
+﻿/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Migrations/20250621083111_CreateTableProducts.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Migrations/20250621083111_CreateTableProducts.Designer.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Migrations/MssqlDbContextModelSnapshot.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MongoDB/DBContext/MongoDbContext.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MongoDB/Repositories/BlogsRepository.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MongoDB/Repositories/ProductsRepository.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/Configurations/ProductsConfiguration.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/DBContext/MssqlDbContext.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/Repositories/BlogsRepository.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/Repositories/ProductsRepository.cs

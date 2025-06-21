@@ -1,0 +1,5 @@
+﻿/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/Common/BaseEntity.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/Entities/Blogs.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/Entities/Products.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/Interfaces/IBlogsRepository.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_1.Domain/Interfaces/IProductsRepository.cs

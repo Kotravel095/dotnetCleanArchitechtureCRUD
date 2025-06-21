@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.11.0.0",
+        "fileVersion": "4.11.0-3.24554.2 (bc1c3011)",
+        "semanticVersion": "4.11.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "Argument of type 'ISetup<IProductsRepository, Task<Products>>' cannot be used for parameter 'mock' of type 'IReturns<IProductsRepository, Task<Products?>>' in 'IReturnsResult<IProductsRepository> ReturnsExtensions.ReturnsAsync<IProductsRepository, Products?>(IReturns<IProductsRepository, Task<Products?>> mock, Products? value)' due to differences in the nullability of reference types.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_5.Tests/Application/ProductServiceTests.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 9,
+                  "endLine": 67,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "Argument of type 'ISetup<IProductsRepository, Task<Products>>' cannot be used for parameter 'mock' of type 'IReturns<IProductsRepository, Task<Products?>>' in 'IReturnsResult<IProductsRepository> ReturnsExtensions.ReturnsAsync<IProductsRepository, Products?>(IReturns<IProductsRepository, Task<Products?>> mock, Products? value)' due to differences in the nullability of reference types.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_5.Tests/Application/ProductServiceTests.cs",
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 9,
+                  "endLine": 121,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "Argument of type 'ISetup<IProductsRepository, Task<Products>>' cannot be used for parameter 'mock' of type 'IReturns<IProductsRepository, Task<Products?>>' in 'IReturnsResult<IProductsRepository> ReturnsExtensions.ReturnsAsync<IProductsRepository, Products?>(IReturns<IProductsRepository, Task<Products?>> mock, Products? value)' due to differences in the nullability of reference types.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_5.Tests/Application/ProductServiceTests.cs",
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 9,
+                  "endLine": 154,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1816",
+          "level": "note",
+          "message": "Change ProductsRepositoryTests.Dispose() to call GC.SuppressFinalize(object). This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_5.Tests/Infrastructure/ProductRepositoryTests.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 17,
+                  "endLine": 26,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1816": {
+          "id": "CA1816",
+          "shortDescription": "Dispose methods should call SuppressFinalize",
+          "fullDescription": "A method that is an implementation of Dispose does not call GC.SuppressFinalize; or a method that is not an implementation of Dispose calls GC.SuppressFinalize; or a method calls GC.SuppressFinalize and passes something other than this (Me in Visual Basic).",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1816",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS8620": {
+          "id": "CS8620",
+          "shortDescription": "Argument cannot be used for parameter due to differences in the nullability of reference types.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8620)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

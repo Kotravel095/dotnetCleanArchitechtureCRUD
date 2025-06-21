@@ -1,0 +1,11 @@
+﻿/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_4.WebApi/Controllers/BlogsController.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_4.WebApi/Controllers/ProductsController.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_4.WebApi/Program.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_4.WebApi/obj/Debug/net8.0/_4.WebApi.GlobalUsings.g.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_4.WebApi/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_4.WebApi/obj/Debug/net8.0/_4.WebApi.AssemblyInfo.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_4.WebApi/obj/Debug/net8.0/_4.WebApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_4.WebApi/appsettings.Development.json
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_4.WebApi/appsettings.json
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_4.WebApi/_4.WebApi.http
+/Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_4.WebApi/Properties/launchSettings.json

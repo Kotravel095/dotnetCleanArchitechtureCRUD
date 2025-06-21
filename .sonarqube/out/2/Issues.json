@@ -1,0 +1,248 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.11.0.0",
+        "fileVersion": "4.11.0-3.24554.2 (bc1c3011)",
+        "semanticVersion": "4.11.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8613",
+          "level": "warning",
+          "message": "Nullability of reference types in return type of 'Task<Products?> ProductsRepository.GetByIdAsync(Guid Id)' doesn't match implicitly implemented member 'Task<Products> IProductsRepository.GetByIdAsync(Guid id)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/Repositories/ProductsRepository.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 34,
+                  "endLine": 24,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8613",
+          "level": "warning",
+          "message": "Nullability of reference types in return type of 'Task<Products?> ProductsRepository.UpdateAsync(Guid Id, Products updatedProduct)' doesn't match implicitly implemented member 'Task<Products> IProductsRepository.UpdateAsync(Guid Id, Products products)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/Repositories/ProductsRepository.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 34,
+                  "endLine": 36,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8613",
+          "level": "warning",
+          "message": "Nullability of reference types in return type of 'Task<Products?> ProductsRepository.DeleteAsync(Guid Id)' doesn't match implicitly implemented member 'Task<Products> IProductsRepository.DeleteAsync(Guid id)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/Repositories/ProductsRepository.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 34,
+                  "endLine": 52,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Products' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/DBContext/MssqlDbContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 12,
+                  "endLine": 9,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/DBContext/MssqlDbContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 28,
+                  "endLine": 13,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'builder' to 'modelBuilder' to match the base class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/DBContext/MssqlDbContext.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 58,
+                  "endLine": 17,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'Id' to 'id' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/Repositories/ProductsRepository.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 52,
+                  "endLine": 24,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'Id' to 'id' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/Repositories/ProductsRepository.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 51,
+                  "endLine": 52,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'updatedProduct' to 'products' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/jeerawat/Documents/project/dotnetCleanArchitecture/backend/_3.Infrastructure/Persistence/MSSQL/Repositories/ProductsRepository.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 64,
+                  "endLine": 36,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8613": {
+          "id": "CS8613",
+          "shortDescription": "Nullability of reference types in return type doesn't match implicitly implemented member.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8613)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "The name of a parameter in an externally visible. This rule raises an issue when method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
