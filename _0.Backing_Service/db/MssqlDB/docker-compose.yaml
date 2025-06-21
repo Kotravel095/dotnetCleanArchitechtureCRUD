@@ -1,0 +1,14 @@
+services:
+  sql-server:
+    image: mcr.microsoft.com/azure-sql-edge
+    platform: linux/arm64  # สำคัญมากสำหรับ Mac M1/M2
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=1
+      - MSSQL_SA_PASSWORD=abcABC123
+    volumes:
+      - mssql_data:/var/opt/mssql
+
+volumes:
+  mssql_data:
