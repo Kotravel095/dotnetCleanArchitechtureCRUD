@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  dotnetclean:
+    build: .
+    container_name: dotnetclean
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Server=host.docker.internal;Database=YourDatabaseName;User Id=sa;Password=abcABC123;Encrypt=True;TrustServerCertificate=True;
+    ports:
+      - "8000:8080"
+    restart: unless-stopped
